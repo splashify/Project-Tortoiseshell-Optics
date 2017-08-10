@@ -2,6 +2,7 @@ html {
   font-family: Helvetica;
   font-size: 18px;
   line-height: 1.4;
+
 }
 
 header {
@@ -16,12 +17,10 @@ header {
 .container {
   max-width: 960px;
   margin: auto;
-
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
   background-color: cadetblue;
@@ -34,8 +33,12 @@ nav {
   padding-right: 1rem;
   padding-left: 2rem;
 }
-div span {
- padding: 1rem 0;
+
+.menu{
+  display:flex;
+
+
+  color: red;
 }
 
 ul li {
@@ -60,10 +63,17 @@ ul li {
 
 .third-container {
   margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+
 }
 
 .icons-container {
 height: 8rem;
+}
+
+.icon-holder {
+
 }
 
 
@@ -77,4 +87,38 @@ height: 8rem;
 
 .delivery {
   width: 5rem;
+}
+
+.texts-container {
+display: flex;
+}
+
+.information {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+  }
+
+.title {
+    background-color: cadetblue;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    color: white;
+    max-width: 10rem;
+    margin-bottom: 1rem;
+  }
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: azure;
+}
+
+.logo-black {
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
 }
